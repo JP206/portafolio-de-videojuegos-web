@@ -1,0 +1,31 @@
+<div class="header">Portafolio de videojuegos</div>
+
+<div class="jumbotron">
+    <h1 class="display-4">¡Hola mundo!</h1>
+    <div class="texto">
+        <p>Yo soy Juan Cosentino y soy un estudiante de Ingeniería en Informática en Uruguay.
+            Este es mi portafolio de videojuegos, en donde todos los juegos que aparecen fueron
+            desarrollados por mí.
+        </p>
+        <p>Me gustaría entrar en la industria de los videojuegos dado que es una pasión que tengo hace años.</p>
+        <p>¡Me motivo diariamente a continuar aprendiendo y crear juegos nuevos!</p>
+        <hr>
+        <p>En el siguiente link se encuentra este portafolio como repositorio de GitHub, para poder descargar los juegos.</p>
+        <a href="https://github.com/JP206/Portafolio-de-videojuegos"><button class="link">Portafolio en GitHub</button></a>
+    </div>
+</div>
+
+<div ngbDropdown class="d-inline-block menuJuegos">
+    <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
+        Juegos
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="opcionesJuegos">
+        <a class="nav-link" routerLink="/campeon-de-waterdeep" id="enlace"><button ngbDropdownItem class="opciones">Campeón de Waterdeep</button></a>
+        <button ngbDropdownItem class="opciones">Dragón Alado de Ra</button>
+        <button ngbDropdownItem class="opciones">El Temor de un Sabio</button>
+        <button ngbDropdownItem class="opciones">El viaje del druida</button>
+        <button ngbDropdownItem class="opciones">Stone Destroyer</button>
+    </div>
+</div>
+
+<button class="botonContacto"><a class="nav-link" routerLink="/contacto">Sobre mí</a></button>
