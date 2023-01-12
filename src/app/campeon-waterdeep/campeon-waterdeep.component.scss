@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: center;
+    color: #ff006a;
+    font-family: Comic Sans MS;
+    font-size: 350%;
+    text-shadow: -5px 0 white, 0 3px black, 3px 0 black, 0 -3px black;
+    background-image: url("backgroundJumbotron.png");
+    background-position: -5% top;
+    border: #ff006a 3px solid;
+    box-shadow: 0 0 10px #ff006a, 0 0 30px #ff006a, 0 0 60px #ff006a;
+    border-radius: 12px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+video {
+    width: 85%;
+    position: relative;
+    left: 7%;
+}
