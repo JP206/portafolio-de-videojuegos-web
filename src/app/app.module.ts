@@ -8,13 +8,15 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { CampeonWaterdeepComponent } from './campeon-waterdeep/campeon-waterdeep.component';
+import { DragonAladoComponent } from './dragon-alado/dragon-alado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SobreMiComponent,
     InicioComponent,
-    CampeonWaterdeepComponent
+    CampeonWaterdeepComponent,
+    DragonAladoComponent
   ],
   imports: [
     BrowserModule,
