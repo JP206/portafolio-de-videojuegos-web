@@ -50,8 +50,7 @@ h1 {
 
 .menuJuegos {
     position: relative;
-    top: 100px;
-    left: 30%;
+    top: 60px;
     border-color: #ff006a;
     background-color: #ff006a;
     box-shadow: 0 0 10px #ff006a, 0 0 30px #ff006a, 0 0 60px #ff006a;
@@ -100,8 +99,7 @@ h1 {
 
 .botonContacto {
     position: relative;
-    left: 55%;
-    top: 110px;
+    top: 120px;
     border-radius: 12px;
     color: white;
     background-color: orange;
@@ -121,4 +119,11 @@ h1 {
     border-radius: 12px;
     background-color: lightblue;
     color: midnightblue;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 2%;
 }

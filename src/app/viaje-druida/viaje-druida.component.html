@@ -1,0 +1,50 @@
+<div class="header">El Viaje del Druida</div>
+
+<div class="jumbotron">
+    <div class="texto">
+        <p>Este fue un juego desarrollado en la Universidad para la asignatura de Diseño de Juegos Aplicado. La consigna 
+            consistía en desarrollar un juego en PuzzleScript siguiendo los pasos de un Game-Design Document,
+            tales como formar un concepto, hacer prototipos, preproducción, entre otras.
+        </p>
+        <p>El jugador controla un druida que está en búsqueda de las hojas de su libro mágico que se dispersaron por el bosque. 
+            El druida es capaz de transformarse en varios animales, los cuales tienen habilidades únicas para sortear
+            obstáculos del bosque.</p>
+        <p>Al final hay un video mostrando un nivel, junto con las animaciones de muerte del personaje.</p>
+    </div>
+</div>
+
+<div class="carrusel">
+    <ngb-carousel>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/viajeDruida/codigo.png" class="imagen">
+            </div>
+            <div class="carousel-caption">
+                <h5>Código con animaciones e interacciones con objetos del juego</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/viajeDruida/niveles.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Interfaz de PuzzleScript con algunos niveles</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/viajeDruida/sprites.png" class="imagen">
+            </div>
+            <div class="carousel-caption">
+                <h5>Sprites del jugador y elementos del mapa</h5>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<video src="./assets/viajeDruida/gameplay.mp4" controls></video>
+
+<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+<p class="punto">.</p>
+
