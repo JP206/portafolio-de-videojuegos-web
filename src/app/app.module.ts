@@ -7,9 +7,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { CampeonWaterdeepComponent } from './campeon-waterdeep/campeon-waterdeep.component';
-import { DragonAladoComponent } from './dragon-alado/dragon-alado.component';
-import { TemorSabioComponent } from './temor-sabio/temor-sabio.component';
+import { EcoRunComponent } from './eco-run/eco-run.component';
+import { BatallaNavalComponent } from './batalla-naval/batalla-naval.component';
+import { LaughbyrinthComponent } from './laughbyrinth/laughbyrinth.component';
 import { ViajeDruidaComponent } from './viaje-druida/viaje-druida.component';
 import { StoneDestroyerComponent } from './stone-destroyer/stone-destroyer.component';
 
@@ -18,9 +18,9 @@ import { StoneDestroyerComponent } from './stone-destroyer/stone-destroyer.compo
     AppComponent,
     SobreMiComponent,
     InicioComponent,
-    CampeonWaterdeepComponent,
-    DragonAladoComponent,
-    TemorSabioComponent,
+    EcoRunComponent,
+    BatallaNavalComponent,
+    LaughbyrinthComponent,
     ViajeDruidaComponent,
     StoneDestroyerComponent
   ],

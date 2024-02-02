@@ -1,0 +1,43 @@
+<div class="header">Eco Run</div>
+
+<div class="jumbotron">
+    <div class="texto">
+        <p>¡Corre carreras con diferentes animales para juntar Eco Gemas y mejorar tu ecosistema!</p>
+        <p>Este juego fue hecho para Totem Games, donde estuve como único programador en este proyecto.</p>
+    </div>
+</div>
+
+<div class="carrusel">
+    <ngb-carousel id="carousel">
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/ecoRun/carrera.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Carrera utilizando como personaje al conejo</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/ecoRun/ecosistema.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Ecosistema con una mejora disponible</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/ecoRun/tutorial.png" id="pasajes">
+            </div>
+            <div class="carousel-caption">
+                <h5>Parte del tutorial del juego</h5>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<video src="./assets/ecoRun/gameplay.mp4" controls></video>
+
+<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+<p class="punto">.</p>

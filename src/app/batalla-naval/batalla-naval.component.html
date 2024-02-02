@@ -1,0 +1,43 @@
+<div class="header">Batalla naval</div>
+
+<div class="jumbotron">
+    <div class="texto">
+        <p>¡Utiliza tu flota para hundir los barcos del enemigo! Pero ten cuidado, cada cierto tiempo aparecerá una flota enemiga más poderosa de lo usual.</p>
+        <p>El clásico juego de mesa pero con variaciones. Fue hecho en Unity, con algunos modelos sacados del Asset Store de Unity y otros hechos por mí en Blender.</p>
+    </div>
+</div>
+
+<div class="carrusel">
+    <ngb-carousel id="carousel">
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/batallaNaval/partida.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Partida donde se ven los disparos e impactos</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/batallaNaval/diqueSeco.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Tienda con aspectos de barcos</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/batallaNaval/menuPrincipal.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Menú principal del juego con su animación</h5>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<video src="./assets/batallaNaval/gameplay.mp4" controls></video>
+
+<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+<p class="punto">.</p>

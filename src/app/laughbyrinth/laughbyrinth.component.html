@@ -1,0 +1,44 @@
+<div class="header">Laughbyrinth: Quest for the Legendary Joke</div>
+
+<div class="jumbotron">
+    <div class="texto">
+        <p>¿Podrás obtener el chiste legendario y escapar del malvado payaso que lo protege?</p>
+        <p>Este juego fue desarrollado durante la Global Game Jam de 2024. La temática era "Make me laugh", este juego busca ser una parodia graciosa de juegos de terror.
+            Fui el único programador dentro de mi equipo.</p>
+    </div>
+</div>
+
+<div class="carrusel">
+    <ngb-carousel id="carousel">
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/laughbyrinth/mapa.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Mapa del juego</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/laughbyrinth/risa.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Mecánica de risa</h5>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/laughbyrinth/tortazo.png">
+            </div>
+            <div class="carousel-caption">
+                <h5>Mecánica de tirar tortas</h5>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<video src="./assets/laughbyrinth/gameplay.mp4" controls></video>
+
+<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+<p class="punto">.</p>

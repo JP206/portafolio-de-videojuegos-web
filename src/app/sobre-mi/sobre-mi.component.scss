@@ -24,7 +24,7 @@
 
 p {
     padding: 1%;
-    background-color: rgba(255, 251, 0, 0.918);
+    background-color: rgb(246, 243, 75);
 }
 
 .botonVolver {
@@ -51,4 +51,19 @@ img {
     position: relative;
     right: -70%;
     top: -220px;
+}
+
+.logo
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+}
+
+#linkedin
+{
+    width: 60px;
+    height: 60px;
 }
