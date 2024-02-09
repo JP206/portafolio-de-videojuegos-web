@@ -1,29 +1,77 @@
-<div class="header">Portafolio de videojuegos</div>
+<div id="esp" style="">
+    <div class="header">Portafolio de videojuegos</div>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
 
-<div class="jumbotron">
-    <h1 class="display-4">¡Hola mundo!</h1>
-    <div class="texto">
-        <p>Soy Juan Pedro Cosentino, en esta página tengo algunos de los juegos que he creado.</p>
-        <p>La mayoría han sido creados en Unity, pero he utilizado otros motores como Twine o Puzzlescript</p>
-        <hr>
-        <p>A través del siguiente link podrán descargar estos juegos y más:</p>
-        <a href="https://github.com/JP206/Portafolio-de-videojuegos"><button class="link">Portafolio de videojuegos</button></a>
-    </div>
-</div>
-
-<span>
-    <div ngbDropdown class="d-inline-block menuJuegos">
-        <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
-            Juegos
-        </button>
-        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="opcionesJuegos">
-            <a class="nav-link" routerLink="/eco-run"><button ngbDropdownItem class="opciones">Eco Run</button></a>
-            <a class="nav-link" routerLink="/batalla-naval"><button ngbDropdownItem class="opciones">Batalla naval</button></a>
-            <a class="nav-link" routerLink="/laughbyrinth"><button ngbDropdownItem class="opciones">Laughbyrinth</button></a>
-            <a class="nav-link" routerLink="/el-viaje-del-druida"><button ngbDropdownItem class="opciones">El viaje del druida</button></a>
-            <a class="nav-link" routerLink="/stone-destroyer"><button ngbDropdownItem class="opciones">Stone Destroyer</button></a>
+    <div class="jumbotron">
+        <h1 class="display-4">¡Hola mundo!</h1>
+        <div class="texto">
+            <p>Soy Juan Pedro Cosentino, en esta página tengo algunos de los juegos que he creado.</p>
+            <p>La mayoría han sido creados en Unity, pero he utilizado otros motores como Twine o Puzzlescript</p>
+            <hr>
+            <p>A través del siguiente link podrán descargar estos juegos y más:</p>
+            <a href="https://github.com/JP206/Portafolio-de-videojuegos"><button class="link">Portafolio de
+                    videojuegos</button></a>
         </div>
     </div>
 
-    <button class="botonContacto"><a class="nav-link" routerLink="/contacto">Sobre mí</a></button>
-</span>
+    <span>
+        <div ngbDropdown class="d-inline-block menuJuegos">
+            <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
+                Juegos
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="opcionesJuegos">
+                <a class="nav-link" routerLink="/eco-run"><button ngbDropdownItem class="opciones">Eco Run</button></a>
+                <a class="nav-link" routerLink="/batalla-naval"><button ngbDropdownItem class="opciones">Batalla
+                        naval</button></a>
+                <a class="nav-link" routerLink="/laughbyrinth"><button ngbDropdownItem
+                        class="opciones">Laughbyrinth</button></a>
+                <a class="nav-link" routerLink="/el-viaje-del-druida"><button ngbDropdownItem class="opciones">El viaje
+                        del druida</button></a>
+                <a class="nav-link" routerLink="/stone-destroyer"><button ngbDropdownItem class="opciones">Stone
+                        Destroyer</button></a>
+            </div>
+        </div>
+
+        <button class="botonContacto"><a class="nav-link" routerLink="/contacto">Sobre mí</a></button>
+    </span>
+</div>
+
+<!-- INGLES -->
+
+<div id="eng" style="display:none;">
+    <div class="header">Videogame portfolio</div>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">¡Hello world!</h1>
+        <div class="texto">
+            <p>I'm Juan Pedro Cosentino, in this page there are some of the games I've created.</p>
+            <p>Most of them are done in Unity, but I've used other engines such as Twine or Puzzlescript</p>
+            <hr>
+            <p>In the following link you can download these games and more:</p>
+            <a href="https://github.com/JP206/Portafolio-de-videojuegos"><button class="link">Videogame portfolio</button></a>
+        </div>
+    </div>
+
+    <span>
+        <div ngbDropdown class="d-inline-block menuJuegos">
+            <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
+                Games
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="opcionesJuegos">
+                <a class="nav-link" routerLink="/eco-run"><button ngbDropdownItem class="opciones">Eco Run</button></a>
+                <a class="nav-link" routerLink="/batalla-naval"><button ngbDropdownItem class="opciones">Battleship</button></a>
+                <a class="nav-link" routerLink="/laughbyrinth"><button ngbDropdownItem
+                        class="opciones">Laughbyrinth</button></a>
+                <a class="nav-link" routerLink="/el-viaje-del-druida"><button ngbDropdownItem class="opciones">El viaje
+                        del druida</button></a>
+                <a class="nav-link" routerLink="/stone-destroyer"><button ngbDropdownItem class="opciones">Stone
+                        Destroyer</button></a>
+            </div>
+        </div>
+
+        <button class="botonContacto"><a class="nav-link" routerLink="/contacto">About me</a></button>
+    </span>
+</div>

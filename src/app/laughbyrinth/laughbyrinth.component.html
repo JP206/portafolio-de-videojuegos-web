@@ -1,35 +1,83 @@
-<div class="header">Laughbyrinth: Quest for the Legendary Joke</div>
+<div id="esp" style="">
+    <div class="header">Laughbyrinth: Quest for the Legendary Joke</div>
 
-<div class="jumbotron">
-    <div class="texto">
-        <p>¿Podrás obtener el chiste legendario y escapar del malvado payaso que lo protege?</p>
-        <p>Este juego fue desarrollado durante la Global Game Jam de 2024. La temática era "Make me laugh", este juego busca ser una parodia graciosa de juegos de terror.
-            Fui el único programador dentro de mi equipo.</p>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¿Podrás obtener el chiste legendario y escapar del malvado payaso que lo protege?</p>
+            <p>Este juego fue desarrollado durante la Global Game Jam de 2024. La temática era "Make me laugh", este
+                juego busca ser una parodia graciosa de juegos de terror.
+                Fui el único programador dentro de mi equipo.</p>
+        </div>
     </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/mapa.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/risa.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/tortazo.png">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/laughbyrinth/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+    <p class="punto">.</p>
 </div>
 
-<div class="carrusel">
-    <ngb-carousel id="carousel">
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/laughbyrinth/mapa.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/laughbyrinth/risa.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/laughbyrinth/tortazo.png">
-            </div>
-        </ng-template>
-    </ngb-carousel>
+<!-- INGLES -->
+
+<div id="eng" style="">
+    <div class="header">Laughbyrinth: Quest for the Legendary Joke</div>
+
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¿Can you get the legendary joke and escape the evil clown protecting it?</p>
+            <p>This game was developed for the 2024 Global Game Jam. The theme was "Make me laugh", this game aims to be a fun parody of terror games. I was the only programmer in my team.</p>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/mapa.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/risa.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/laughbyrinth/tortazo.png">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/laughbyrinth/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Return</a></button>
+
+    <p class="punto">.</p>
 </div>
-
-<video src="./assets/laughbyrinth/gameplay.mp4" controls></video>
-
-<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
-
-<p class="punto">.</p>

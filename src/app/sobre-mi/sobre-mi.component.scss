@@ -1,14 +1,14 @@
 .header {
     display: flex;
     justify-content: center;
-    color: orange;
+    color: rgb(222, 219, 0);
     font-family: Comic Sans MS;
     font-size: 350%;
     text-shadow: -5px 0 white, 0 3px black, 3px 0 black, 0 -3px black;
     background-image: url("backgroundJumbotron.png");
     background-position: -5% top;
-    border: orange 3px solid;
-    box-shadow: 0 0 10px orange, 0 0 30px orange, 0 0 60px orange;
+    border: rgb(255, 251, 0) 3px solid;
+    box-shadow: 0 0 10px rgb(255, 251, 0), 0 0 30px rgb(255, 251, 0), 0 0 60px rgb(255, 251, 0);
     border-radius: 12px;
 }
 
@@ -66,4 +66,24 @@ img {
 {
     width: 60px;
     height: 60px;
+}
+
+.envolverBotonIdioma {
+    display: flex;
+    justify-content: center;
+}
+
+.botonIdioma{
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(186, 183, 10);
+    border: rgb(186, 183, 10) 0px;
+    width: 140px;
+    box-shadow: 0 0 10px rgb(186, 183, 10) 0 0 30px rgb(186, 183, 10) 0 0 60px rgb(186, 183, 10)
+}
+
+.botonIdioma:hover {
+    color: black;
+    background-color: rgb(255, 251, 49);
+    box-shadow: 0 0 10px rgb(255, 251, 49), 0 0 30px rgb(255, 251, 49), 0 0 60px rgb(255, 251, 49);
 }

@@ -1,14 +1,14 @@
 .header {
     display: flex;
     justify-content: center;
-    color: rgb(255, 251, 0);
+    color: rgb(0, 255, 195);
     font-family: Comic Sans MS;
     font-size: 350%;
     text-shadow: -5px 0 white, 0 3px black, 3px 0 black, 0 -3px black;
     background-image: url("backgroundJumbotron.png");
     background-position: -5% top;
-    border: rgb(255, 251, 0) 3px solid;
-    box-shadow: 0 0 10px rgb(255, 251, 0), 0 0 30px rgb(255, 251, 0), 0 0 60px rgb(255, 251, 0);
+    border: rgb(0, 255, 195) 3px solid;
+    box-shadow: 0 0 10px rgb(0, 255, 195)rgb(0, 255, 195) 0 0 30px rgb(0, 255, 195), 0 0 60px rgb(0, 255, 195);
     border-radius: 12px;
 }
 
@@ -19,12 +19,12 @@
     left: 14%;
     width: 70%;
     border: 1px solid;
-    border-color: rgb(255, 251, 0);
-    box-shadow: 0 0 10px rgb(255, 251, 0), 0 0 30px rgb(255, 251, 0), 0 0 60px rgb(255, 251, 0);
+    border-color: rgb(0, 255, 195);
+    box-shadow: 0 0 10px rgb(0, 255, 195), 0 0 30px rgb(0, 255, 195), 0 0 60px rgb(0, 255, 195);
 }
 
 .texto {
-    background-color: rgba(145, 142, 6, 0.836);
+    background-color: rgba(3, 211, 162, 0.796);
     color: white;
 }
 
@@ -33,14 +33,6 @@ video {
     position: relative;
     left: 7%;
     top: 100px;
-}
-
-h5 {
-    position: relative;
-    top: 10px;
-    background-color: rgba(187, 185, 68, 0.795);
-    color: white;
-    border: solid 2px rgb(255, 251, 0);
 }
 
 ngb-carousel {
@@ -105,4 +97,24 @@ img {
 #carousel {
     width: 500px;
     height: 500px;
+}
+
+.envolverBotonIdioma {
+    display: flex;
+    justify-content: center;
+}
+
+.botonIdioma{
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(1, 173, 133);
+    border: rgb(1, 173, 133) 0px;
+    width: 140px;
+    box-shadow: 0 0 10px rgb(1, 173, 133) 0 0 30px rgb(1, 173, 133) 0 0 60px rgb(1, 173, 133)
+}
+
+.botonIdioma:hover {
+    color: black;
+    background-color: rgb(138, 255, 228);
+    box-shadow: 0 0 10px rgb(138, 255, 228), 0 0 30px rgb(138, 255, 228), 0 0 60px rgb(138, 255, 228);
 }

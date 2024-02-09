@@ -101,3 +101,23 @@ img {
     width: 500px;
     height: 320px;
 }
+
+.envolverBotonIdioma {
+    display: flex;
+    justify-content: center;
+}
+
+.botonIdioma{
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(255, 0, 212);
+    border: rgb(255, 0, 212) 0px;
+    width: 140px;
+    box-shadow: 0 0 10px rgb(255, 0, 212) 0 0 30px rgb(255, 0, 212) 0 0 60px rgb(255, 0, 212)
+}
+
+.botonIdioma:hover {
+    color: black;
+    background-color: rgb(255, 44, 220);
+    box-shadow: 0 0 10px rgb(255, 44, 220), 0 0 30px rgb(255, 44, 220), 0 0 60px rgb(255, 44, 220);
+}

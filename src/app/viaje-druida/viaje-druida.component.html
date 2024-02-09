@@ -1,38 +1,85 @@
-<div class="header">El Viaje del Druida</div>
+<div id="esp" style="">
+    <div class="header">El Viaje del Druida</div>
 
-<div class="jumbotron">
-    <div class="texto">
-        <p>¡Oh no, las páginas de tu libro mágico se han dispersado por el bosque! Deberás usar tu capacidad de convertirte en animales para sortear los obstáculos y recuperarlas</p>
-        <p>Este fue un juego desarrollado en la Universidad para la asignatura de Diseño de Juegos Aplicado. La consigna 
-            consistía en desarrollar un juego en PuzzleScript siguiendo los pasos de un Game-Design Document,
-            tales como formar un concepto, hacer prototipos, preproducción, entre otras.
-        </p>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Oh no, las páginas de tu libro mágico se han dispersado por el bosque! Deberás usar tu capacidad de
+                convertirte en animales para sortear los obstáculos y recuperarlas</p>
+            <p>Este fue un juego desarrollado en la Universidad para la asignatura de Diseño de Juegos Aplicado. La
+                consigna
+                consistía en desarrollar un juego en PuzzleScript siguiendo los pasos de un Game-Design Document,
+                tales como formar un concepto, hacer prototipos, preproducción, entre otras.
+            </p>
+        </div>
     </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/codigo.png" class="imagen">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/niveles.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/sprites.png" class="imagen">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/viajeDruida/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+    <p class="punto">.</p>
 </div>
 
-<div class="carrusel">
-    <ngb-carousel id="carousel">
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/viajeDruida/codigo.png" class="imagen">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/viajeDruida/niveles.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/viajeDruida/sprites.png" class="imagen">
-            </div>
-        </ng-template>
-    </ngb-carousel>
+<!-- INGLES -->
+<div id="eng" style="">
+    <div class="header">El Viaje del Druida</div>
+
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Oh no, the pages of your magic book have dispersed through the woods! You'll need to use your ability to transform in animals to sort out obstacles and recover them.</p>
+            <p>This game was developed at the University for the subject of Applied Game Design. The exercise consisted of developing a game in Puzzlescript following the steps of a Game-Design Document, such as having a concept, make prototypes, preproduction, among others.</p>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/codigo.png" class="imagen">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/niveles.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/viajeDruida/sprites.png" class="imagen">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/viajeDruida/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Return</a></button>
+
+    <p class="punto">.</p>
 </div>
-
-<video src="./assets/viajeDruida/gameplay.mp4" controls></video>
-
-<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
-
-<p class="punto">.</p>
-

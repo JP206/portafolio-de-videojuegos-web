@@ -1,34 +1,81 @@
-<div class="header">Eco Run</div>
+<div id="esp" style="">
+    <div class="header">Eco Run</div>
 
-<div class="jumbotron">
-    <div class="texto">
-        <p>¡Corre carreras con diferentes animales para juntar Eco Gemas y mejorar tu ecosistema!</p>
-        <p>Este juego fue hecho para Totem Games, donde estuve como único programador en este proyecto.</p>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Corre carreras con diferentes animales para juntar Eco Gemas y mejorar tu ecosistema!</p>
+            <p>Este juego fue hecho para Totem Games, donde estuve como único programador en este proyecto.</p>
+        </div>
     </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/carrera.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/ecosistema.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/tutorial.png" id="pasajes">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/ecoRun/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+    <p class="punto">.</p>
 </div>
 
-<div class="carrusel">
-    <ngb-carousel id="carousel">
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/ecoRun/carrera.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/ecoRun/ecosistema.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/ecoRun/tutorial.png" id="pasajes">
-            </div>
-        </ng-template>
-    </ngb-carousel>
+<!-- INGLES -->
+
+<div id="eng" style="">
+    <div class="header">Eco Run</div>
+
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Run with different animals to gather Eco Gems and improve your ecosystem!</p>
+            <p>This game was created for Totem Games, I was the only programmer in this project.</p>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/carrera.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/ecosistema.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/ecoRun/tutorial.png" id="pasajes">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/ecoRun/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Return</a></button>
+
+    <p class="punto">.</p>
 </div>
-
-<video src="./assets/ecoRun/gameplay.mp4" controls></video>
-
-<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
-
-<p class="punto">.</p>

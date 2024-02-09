@@ -1,34 +1,83 @@
-<div class="header">Batalla naval</div>
+<div id="esp" style="">
+    <div class="header">Batalla naval</div>
 
-<div class="jumbotron">
-    <div class="texto">
-        <p>¡Utiliza tu flota para hundir los barcos del enemigo! Pero ten cuidado, cada cierto tiempo aparecerá una flota enemiga más poderosa de lo usual.</p>
-        <p>El clásico juego de mesa pero con variaciones. Fue hecho en Unity, con algunos modelos sacados del Asset Store de Unity y otros hechos por mí en Blender.</p>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Utiliza tu flota para hundir los barcos del enemigo! Pero ten cuidado, cada cierto tiempo aparecerá una
+                flota enemiga más poderosa de lo usual.</p>
+            <p>El clásico juego de mesa pero con variaciones. Fue hecho en Unity, con algunos modelos sacados del Asset
+                Store de Unity y otros hechos por mí en Blender.</p>
+        </div>
     </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/partida.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/diqueSeco.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/menuPrincipal.png">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/batallaNaval/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+    <p class="punto">.</p>
 </div>
 
-<div class="carrusel">
-    <ngb-carousel id="carousel">
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/batallaNaval/partida.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/batallaNaval/diqueSeco.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/batallaNaval/menuPrincipal.png">
-            </div>
-        </ng-template>
-    </ngb-carousel>
+<!-- INGLES -->
+
+<div id="eng" style="">
+    <div class="header">Battleship</div>
+
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¡Use your fleet to sink enemy ships! But beware, for more powerful enemies might appear.</p>
+            <p>Classic battleship board game but with variations. It was done in Unity, some models were imported from Unity's Asset Store and others were made by me in Blender.</p>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/partida.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/diqueSeco.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/batallaNaval/menuPrincipal.png">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/batallaNaval/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Return</a></button>
+
+    <p class="punto">.</p>
 </div>
-
-<video src="./assets/batallaNaval/gameplay.mp4" controls></video>
-
-<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
-
-<p class="punto">.</p>

@@ -1,35 +1,81 @@
-<div class="header">Stone Destroyer</div>
+<div id="esp" style="">
+    <div class="header">Stone Destroyer</div>
 
-<div class="jumbotron">
-    <div class="texto">
-        <p>¿Serás capaz de destruir todas las rocas a tiempo, esquivando las peligrosas?</p>
-        <p>Este fue el primer juego que hice en Unity</p>
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">cambiar idioma</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¿Serás capaz de destruir todas las rocas a tiempo, esquivando las peligrosas?</p>
+            <p>Este fue el primer juego que hice en Unity</p>
+        </div>
     </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/corrutina.png" class="imagen">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/interfaz.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/rocas.png" class="imagen">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/stoneDestroyer/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
+
+    <p class="punto">.</p>
 </div>
 
-<div class="carrusel">
-    <ngb-carousel id="carousel">
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/stoneDestroyer/corrutina.png" class="imagen">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/stoneDestroyer/interfaz.png">
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="d-flex justify-content-center">
-                <img src="./assets/stoneDestroyer/rocas.png" class="imagen">
-            </div>
-        </ng-template>
-    </ngb-carousel>
+<!-- INGLES-->
+
+<div id="eng" style="">
+    <div class="header">Stone Destroyer</div>
+
+    <br>
+    <div class="envolverBotonIdioma"><button class="botonIdioma" (click)="cambiarIdioma()">change language</button></div>
+
+    <div class="jumbotron">
+        <div class="texto">
+            <p>¿Will you be able to destroy all rocks, avoiding the dangerous ones?</p>
+            <p>This is the first game I made in Unity</p>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <ngb-carousel id="carousel">
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/corrutina.png" class="imagen">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/interfaz.png">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/stoneDestroyer/rocas.png" class="imagen">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+    <video src="./assets/stoneDestroyer/gameplay.mp4" controls></video>
+
+    <button class="botonVolver"><a class="nav-link" routerLink="/">Return</a></button>
+
+    <p class="punto">.</p>
 </div>
-
-<video src="./assets/stoneDestroyer/gameplay.mp4" controls></video>
-
-<button class="botonVolver"><a class="nav-link" routerLink="/">Inicio</a></button>
-
-<p class="punto">.</p>
-
